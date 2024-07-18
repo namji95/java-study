@@ -1,3 +1,5 @@
+package stringClass;
+
 public class IndexOfLastIndexOf {
 
   public static void main(String[] args) {
