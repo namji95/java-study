@@ -1,3 +1,5 @@
+package stringClass;
+
 import java.util.StringTokenizer;
 
 public class StringTokenizerClass {
