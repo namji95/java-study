@@ -11,6 +11,14 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/RedisStudy" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/RedisStudy" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
