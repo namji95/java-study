@@ -12,8 +12,6 @@ public class ArithmeticSequence_GeometricSequence {
     int commonDifference = 2;  // 공차
     int commonRatio = 2;  // 공비
 
-
-
     ArithmeticSequence arithmeticSequence = new ArithmeticSequence();
     arithmeticSequence.ArithmeticSequence(firstTerm, commonDifference, numberOfTerms);
 
@@ -21,10 +19,6 @@ public class ArithmeticSequence_GeometricSequence {
     geometricSequence.GeometricSequence(firstTerm, commonRatio, numberOfTerms);
 
     DistinguishArithmeticGeometricProgressions dAGP = new DistinguishArithmeticGeometricProgressions();
-    /*
-    n = 5 등차수열
-    n = 4 등비수열
-     */
 
     Scanner scanner = new Scanner(System.in);
     System.out.print("\n\n수열의 항 개수 : ");
