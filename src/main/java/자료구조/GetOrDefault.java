@@ -9,8 +9,8 @@ public class GetOrDefault {
     solutionOne(str);
     solutionTwo(str);
     solutionThree(str);
-    solutionfour();
-    solutionfive();
+    solutionFour();
+    solutionFive();
 
   }
   public static void solutionOne(String[] str) {
@@ -40,7 +40,7 @@ public class GetOrDefault {
     System.out.println("\nkey값이 빈 값이면 0으로 초기화 후 1 더하기");
     System.out.println("key의 value 값이 빈 값이면 default 값 1 : " + mapThree);
   }
-  public static void solutionfour() {
+  public static void solutionFour() {
     HashMap<String, Integer> mapFour = new HashMap<>();
     String[] str = {"a", "b", "c", "d", "d"};
 
@@ -50,7 +50,7 @@ public class GetOrDefault {
     System.out.println("\nkey값이 빈 값이면 0으로 초기화 동일한 key 값이 존재해도 0으로 초기화");
     System.out.println("key의 value 값이 빈 값이면 default 값 1 : " + mapFour);
   }
-  public static void solutionfive() {
+  public static void solutionFive() {
     HashMap<String, Integer> mapFive = new HashMap<>();
     String[] str = {"a", "b", "c", "d", "d"};
 
